@@ -1,0 +1,652 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.authorization {
+    background-color: #E6E6E6;
+    border-radius: 59px;
+    width: 731px;
+    height: 511px;
+    margin-top: 279px;
+    margin-left: 594.5px;
+    box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.authorization_t {
+    font-size: 50px;
+    color: #4E4E4E;
+    margin-left: 188px;
+    padding-top: 56px;
+    font-weight: 600;
+}
+
+.input-container {
+    position: relative;
+    width: 553px;
+    margin: 99px auto 0;
+}
+
+.email-input {
+    width: 100%;
+    height: 79px;
+    background-color: #D5D5D5;
+    border: none;
+    border-radius: 60px;
+    padding-left: 28px;
+    padding-right: 60px;
+    font-size: 25px;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+.email-input::placeholder {
+    color: #8C8989;
+    font-weight: 100;
+}
+
+.crossemail-btn {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cross-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.code-btn {
+    background-color: #B5C7BC;
+    width: 419px;
+    height: 86px;
+    font-size: 35px;
+    font-weight: 900;
+    color: #4E4E4E;
+    border: none;
+    border-radius: 50px;
+    margin-top: 22px;
+    margin-left: 158px;
+    cursor: pointer;
+}
+
+.header {
+    width: 1920px;
+    height: 118px;
+    background-color: #FEFEFE;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid #000000;
+    position: relative;
+}
+
+.logo {
+    width: 292px;
+    height: 62px;
+    position: absolute;
+    left: 45px;
+    top: 28px;
+}
+
+.geo-btn {
+    width: 56px;
+    height: 56px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    left: 399px;
+    top: 31px;
+}
+
+.geo-icon {
+    width: 100%;
+    height: 100%;
+}
+
+.search-container {
+    position: absolute;
+    width: 927px;
+    height: 71px;
+    left: 495px;
+    top: 23px;
+}
+
+.search-input {
+    width: 100%;
+    height: 100%;
+    background-color: #E8E8E8;
+    border: none;
+    border-radius: 40px;
+    padding-left: 75px;
+    padding-right: 60px;
+    font-size: 30px;
+    outline: none;
+    color: #000000;
+    box-sizing: border-box;
+}
+
+.search-placeholder {
+    position: absolute;
+    left: 73px;
+    top: 17px;
+    font-size: 30px;
+    color: #AAAAAA;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.search-icon {
+    position: absolute;
+    left: 19px;
+    top: 17px;
+    width: 37px;
+    height: 37px;
+    z-index: 2;
+}
+
+.cross-btn {
+    position: absolute;
+    right: 20px;
+    top: 23px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.create-btn {
+    width: 266px;
+    height: 57px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    position: absolute;
+    left: 1489px;
+    top: 30px;
+    cursor: pointer;
+}
+
+.profile-circle {
+    width: 92px;
+    height: 92px;
+    background-color: #E8E8E8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    position: absolute;
+    left: 1810px;
+    top: 13px;
+}
+
+.main-content {
+    margin-top: 60px;
+}
+
+.zag {
+    font-size: 48px;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+.cards-container {
+    position: relative;
+    height: 447px;
+    margin-left: 45px;
+}
+
+.cards-row {
+    display: flex;
+    position: absolute;
+    left: 0;
+}
+
+.card {
+    width: 312.15px;
+    height: 447px;
+    border: 2px solid #000000; 
+    border-radius: 20px;
+    margin-right: 69.85px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image {
+    width: 100%;
+    height: 312.15px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 142px;
+    left: 13.73px;
+    right: 13.73px;
+    z-index: 2;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.card-text {
+    position: absolute;
+    top: 323.39px;
+    left: 13.73px;
+    right: 13.73px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 1.4;
+    height: 110px;
+}
+
+.more-routes {
+    width: 440px;
+    height: 447px;
+    border: 2px solid #000000; 
+    border-radius: 25px;
+    margin-left: 1580px;
+    display: flex;
+    overflow: visible;
+    box-sizing: border-box;
+}
+
+.more-text {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+    margin-left: 47px;
+    margin-top: 179px;
+    line-height: 1.2;
+    width: 200px;
+}
+
+.zag2 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 44px;
+    margin-top: 80px;
+}
+
+.back-btn {
+    margin-left: 292px;
+    margin-top: 83px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.post-title {
+    margin-left: 405px;
+    margin-top: -62px;
+    width: 1111px;
+    height: 177px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 1.2;
+}
+
+.post-main-image {
+    position: absolute;
+    left: 403px;
+    top: 403px;
+    width: 1111px;
+    height: 740px;
+    object-fit: cover;
+}
+
+.post-info {
+    margin-left: 405px;
+    margin-top: 801px;
+    width: 1111px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 1.4;
+}
+
+.post-info strong {
+    font-weight: 700;
+}
+
+.post-description {
+    margin-left: 405px;
+    margin-top: 41px;
+    width: 1111px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 1.4;
+}
+
+.map-container {
+    margin-left: 405px;
+    margin-top: 40px;
+    width: 1111px;
+    height: 622px;
+    background-color: #E8E8E8;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-placeholder {
+    font-size: 24px;
+    color: #888888;
+}
+
+.comments-section {
+    margin-left: 405px;
+    margin-top: 59px;
+    width: 1111px;
+    height: 554px;
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.comment-input-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 41px;
+}
+
+.comment-input {
+    width: 1111px;
+    height: 70px;
+    margin-left: -2px;
+    margin-top: -2px;
+    border-radius: 20px 20px 25px 25px;
+    padding: 0 70px 0 40px;
+    font-size: 32px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.comment-input::placeholder {
+    color: #979090;
+}
+
+.send-comment-btn {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.comment {
+    width: 749px;
+    height: 92px;
+    background-color: #F0F0F0;
+    border-radius: 40px;
+    padding: 18px;
+    margin-bottom: 17px;
+    margin-left: 181px;
+    box-sizing: border-box;
+    border-bottom: none;
+}
+
+.comment-text {
+    font-size: 16px;
+    font-weight: 200;
+    color: #000000;
+    margin-left: 20.34px;
+    margin-bottom: 5px;
+}
+
+.comment-author {
+    font-size: 16px;
+    font-weight: 200;
+    margin-left: 20.34px;
+    color: #000000;
+    font-style: italic;
+}
+.profile-container {
+    position: relative;
+    margin-left: 155px;
+    margin-top: 78px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.profile-circle-main {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    background-color: #E8E8E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #000;
+}
+
+.profile-info {
+    margin-left: 35px;
+    margin-top: 4px;
+}
+
+.profile-name {
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.profile-city {
+    font-size: 32px;
+    color: #000;
+    margin-left: -1px;
+}
+
+.profile-buttons {
+    display: flex;
+    margin-left: 155px;
+    margin-top: 45px;
+    gap: 13px;
+}
+
+.profile-btn {
+    width: 299px;
+    height: 57px;
+    border-radius: 25px;
+    border: none;
+    background-color: #000;
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.profile-btn:hover {
+    background-color: #383838;
+}
+
+.profile-page .main-content {
+    margin-top: 45px;
+    margin-left: 155px;
+}
+
+.profile-page .cards-container {
+    margin-left: 0;
+}
+
+.profile-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+.create-post-page .create-post-container {
+    margin-top: 113px;
+    margin-left: 428px;
+}
+
+.form-title1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+    margin-left: -8px;
+    margin-bottom: 20px;
+}
+
+.form-title {
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.title-input {
+    width: 883px;
+    height: 114px;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 31px;
+    padding: 0 20px;
+    font-size: 32px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.image-upload {
+    width: 337px;
+    height: 86px;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 31px;
+}
+
+.upload-icon {
+    position: absolute;
+    left: 37px;
+    top: 21px;
+    width: 44px;
+    height: 44px;
+}
+
+.choose-btn {
+    position: absolute;
+    right: 21px;
+    top: 26px;
+    width: 170px;
+    height: 35px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.instruction-btn {
+    width: 135px;
+    height: 28.93px;
+    background-color: #061A38;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10.07px;
+    cursor: pointer;
+    display: block;
+}
+
+.map-input {
+    width: 891px;
+    height: 56px;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 17px;
+    font-size: 32px;
+    outline: none;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 10.07px;
+}
+
+.description-input {
+    width: 884px;
+    height: 114px;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 49px;
+    padding: 20px;
+    font-size: 32px;
+    outline: none;
+    box-sizing: border-box;
+    resize: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-title2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+}
+
+.create-post-btn {
+    width: 299px;
+    height: 57px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 32px;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+}
+
+.back-btn-link {
+    text-decoration: none;
+    display: inline-block;
+}
